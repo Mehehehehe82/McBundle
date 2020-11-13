@@ -1,5 +1,5 @@
 import mcbundle
-# Modify this to make any art you want. Here I made Zalk's face.
+# Modify this to make any art you want. Here I made Zalk's beautiful face.
 image_array = [
 	"OOOOOOOO",
 	"O0OOOO0O",
