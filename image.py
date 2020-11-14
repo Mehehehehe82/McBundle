@@ -1,6 +1,7 @@
 import mcbundle
 # Modify this to make any art you want. Here I made Zalk's beautiful face.
-image_array = [
+images = {}
+images["zelkam"] = [
 	"OOOOOOOO",
 	"O0OOOO0O",
 	"OOOOOOOO",
@@ -10,6 +11,19 @@ image_array = [
 	"gWWWWWWg",
 	"ggWWWWgg",
 ]
+
+images["badboyhalo"] = [
+	"00000000",
+	"000RR000",
+	"00R00R00",
+	"0RW00WR0",
+	"R000000R",
+	"R000000R",
+	"R000000R",
+	"0R0000R0",
+]
+
+image_array = images["zelkam"]
 image = "".join(image_array)
 myArray = []
 map = {
